@@ -5,16 +5,9 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
-    <div className="container">
-       <div className="row">
-          <div className="col-6">Coloumn Number One</div>
-          <div className="col-6">
-            <span>
-              <i className="fas fa-home"/>
-            </span>
-          </div>
-       </div>
-    </div>
+    <React.Fragment>
+      <h3>App</h3>
+    </React.Fragment>
   );
 }
 
