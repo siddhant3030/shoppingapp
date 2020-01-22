@@ -36,12 +36,12 @@ export default class Product extends Component {
 const ProductWrapper = styled.div `
 .card {
     border-color: transparent;
-    transition: all ls linear;
+    transition: all 1s linear;
 }
 .card-footer {
     background: transparent;
     border-top: transparent;
-    transition: all ls linear;
+    transition: all 1s linear;
 }
 &:hover{
     .card {
@@ -51,5 +51,15 @@ const ProductWrapper = styled.div `
     .card-footer {
         background: rgba(247, 247, 247);
     }
+.img-container {
+    position: relative;
+    overflow: hidden;
+}
+.card-img-top {
+    transition: all 1s linear;
+}
+.img-container:hover .card-img-top {
+    transform: scale(1.2);
+}
 }
 `
