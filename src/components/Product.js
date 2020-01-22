@@ -43,4 +43,13 @@ const ProductWrapper = styled.div `
     border-top: transparent;
     transition: all ls linear;
 }
+&:hover{
+    .card {
+        border: 0.04rem solid rgba(0, 0, 0, 0.2);
+        box-shadow: 2px 2px 5px 0px(0, 0, 0, 0.2);
+    }
+    .card-footer {
+        background: rgba(247, 247, 247);
+    }
+}
 `
