@@ -38,4 +38,9 @@ const ProductWrapper = styled.div `
     border-color: transparent;
     transition: all ls linear;
 }
+.card-footer {
+    background: transparent;
+    border-top: transparent;
+    transition: all ls linear;
+}
 `
